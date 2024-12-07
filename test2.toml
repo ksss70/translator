@@ -1,0 +1,6 @@
+# Настройки базы данных
+[database]
+type = "postgresql"
+credentials = { user = "admin", password = "secret" }
+ports = [5432, 5433, 5434]
+constants = { DEFAULT_PORT = 5432 }

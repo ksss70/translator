@@ -1,0 +1,5 @@
+# Это основной сервер
+[server]
+host = "localhost"  # Адрес хоста
+port = 8080
+constants = { MAX_CONNECTIONS = 100, TIMEOUT = 30 }
